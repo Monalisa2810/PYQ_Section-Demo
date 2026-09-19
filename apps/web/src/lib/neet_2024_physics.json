@@ -1,0 +1,97 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "text": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π×10⁻⁷ SI units):",
+    "options": ["4.4 mT", "44 T", "44 mT", "4.4 T"],
+    "correctOptionIndex": 0,
+    "explanation": "Magnetic field at the centre of a coil B = (μ₀NI) / 2r = (4π×10⁻⁷ × 100 × 7) / (2 × 0.1) = 4.4 × 10⁻³ T = 4.4 mT."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Magnetism and Matter",
+    "text": "Match List-I with List-II.\nList-I (Material)\n(A) Diamagnetic\n(B) Ferromagnetic\n(C) Paramagnetic\n(D) Non-magnetic\nList-II (Susceptibility (x))\n(I) x = 0\n(II) 0 > x ≥ -1\n(III) x >> 1\n(IV) 0 < x < ε (a small positive number)",
+    "options": [
+      "A-III, B-II, C-I, D-IV",
+      "A-IV, B-III, C-II, D-I",
+      "A-II, B-III, C-IV, D-I",
+      "C-II, B-I, C-III, D-IV"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Diamagnetic: -1 ≤ χ < 0. Paramagnetic: 0 < χ < ε. Ferromagnetic: χ ≫ 1. Non-magnetic: χ = 0."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "text": "A thermodynamic system is taken through the cycle abcda. The work done by the gas along the path bc is:",
+    "options": ["-90 J", "-60 J", "zero", "30 J"],
+    "correctOptionIndex": 2,
+    "explanation": "As volume is constant along path bc (isochoric process), the work done W = ∫P dV = 0."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "text": "An unipolar light beam strikes a glass surface at Brewster’s angle. Then:",
+    "options": [
+      "both the reflected and refracted light will be completely polarised.",
+      "the reflected light will be completely polarised but the refracted light will be partially polarised.",
+      "the reflected light will be partially polarised.",
+      "the refracted light will be completely polarised."
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "At Brewster's angle, the reflected light is completely polarised perpendicular to the plane of incidence, but the refracted light is only partially polarised."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "text": "In an ideal transformer, the turns ratio is Np/Ns = 1/2. The ratio Vs : Vp is equal to (the symbols carry their usual meaning):",
+    "options": ["1 : 1", "1 : 4", "1 : 2", "2 : 1"],
+    "correctOptionIndex": 3,
+    "explanation": "For an ideal transformer, Vs/Vp = Ns/Np. Since Np/Ns = 1/2, Ns/Np = 2/1. Thus Vs:Vp = 2:1."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "text": "A logic circuit provides the output Y as per the following truth table:\nA B Y\n0 0 1\n0 1 0\n1 0 1\n1 1 0",
+    "options": ["B̅ (NOT B)", "B", "A.B + A̅", "A.B̅ + A̅"],
+    "correctOptionIndex": 0,
+    "explanation": "Looking at the truth table, Y is exactly the inverse of B. When B is 0, Y is 1. When B is 1, Y is 0. Hence Y = B̅."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "text": "In a vernier calipers, (N + 1) divisions of vernier scale coincide with N divisions of main scale. If 1 MSD represents 0.1 mm, the vernier constant (in cm) is:",
+    "options": ["100 N", "10 (N + 1)", "1 / 10N", "1 / 100(N + 1)"],
+    "correctOptionIndex": 3,
+    "explanation": "1 VSD = N / (N + 1) MSD. Least count = 1 MSD - 1 VSD = 1 MSD (1 - N / (N + 1)) = MSD / (N + 1). Given 1 MSD = 0.1 mm = 0.01 cm = 1/100 cm. So LC = 1 / 100(N + 1) cm."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Solids",
+    "text": "The maximum elongation of a steel wire of 1 m length if the elastic limit of steel and its Young’s modulus, respectively, are 8 × 10⁸ N m⁻² and 2 × 10¹¹ N m⁻², is:",
+    "options": ["40 mm", "8 mm", "4 mm", "0.4 mm"],
+    "correctOptionIndex": 2,
+    "explanation": "Maximum strain = Elastic limit / Young's modulus = (8 × 10⁸) / (2 × 10¹¹) = 4 × 10⁻³. Maximum elongation Δl = Strain × Length = 4 × 10⁻³ × 1 m = 4 mm."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "text": "A horizontal force 10 N is applied to a block A as shown in figure. The mass of blocks A and B are 2 kg and 3 kg, respectively. The blocks slide over a frictionless surface. The force exerted by block A on block B is:",
+    "options": ["6 N", "10 N", "zero", "4 N"],
+    "correctOptionIndex": 0,
+    "explanation": "Common acceleration a = F_net / M_total = 10 / (2 + 3) = 2 m/s². The force exerted by A on B is the mass of B times acceleration: F_AB = m_B × a = 3 kg × 2 m/s² = 6 N."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "text": "If the monochromatic source in Young’s double slit experiment is replaced by white light, then",
+    "options": [
+      "there will be a central bright white fringe surrounded by a few coloured fringes.",
+      "all bright fringes will be of equal width.",
+      "interference pattern will disappear.",
+      "there will be a central dark fringe surrounded by a few coloured fringes."
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "When white light is used, the central fringe is formed by the overlapping of all colours (path difference = 0), making it white. Surrounding it are a few coloured fringes before they blur into white due to extensive overlapping."
+  }
+]

@@ -40,6 +40,35 @@ export async function approveTopic(id: string) {
   return response.data.data
 }
 
+export type PyqPaper = {
+  _id: string
+  year: number
+  title: string
+  code: string
+  subject: string
+}
+
+export type PyqQuestion = {
+  _id: string
+  paperId: string
+  subject: string
+  chapter: string
+  text: string
+  options: string[]
+  correctOptionIndex: number
+  explanation: string
+}
+
+export async function getPyqPapers() {
+  const response = await api.get<{ data: { papers: PyqPaper[] } }>('/pyq/papers')
+  return response.data.data.papers
+}
+
+export async function getPyqPaperQuestions(id: string) {
+  const response = await api.get<{ data: { paper: PyqPaper, questions: PyqQuestion[] } }>(`/pyq/papers/${id}/questions`)
+  return response.data.data
+}
+
 api.interceptors.request.use((config) => {
   if (accessToken) {
     config.headers.Authorization = `Bearer ${accessToken}`
